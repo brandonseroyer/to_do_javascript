@@ -1,1 +1,15 @@
+.incomplete-tasks {
+  display: none;
+}
 
+.completed-tasks {
+  display: none;
+}
+
+.list-group-item {
+  margin-top: 2%;
+}
+
+span {
+  text-decoration: none;
+}

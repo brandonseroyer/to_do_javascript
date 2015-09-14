@@ -13,26 +13,41 @@
   <div class ="container">
     <h1>To do List</h1>
 
-  <div class="row">
-    <div class="col-md-6">
-      <h2>Add a task:</h2>
-      <form id="description" class="form-inline">
-        <div id="tasks">
-          <div class="new-task">
-            <div class="form-group">
-              <input type="text" class="form-control description" placeholder="Task">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control due-date" placeholder="Due Date">
-            </div>
-          </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row incomplete-tasks">
+
         </div>
 
-        <button type="submit" class="btn">Add Task</button>
+        <form id="task" class="form-inline">
+          <div id="tasks">
+            <div class="new-task">
+              <div class="form-group">
+                <input type="text" class="form-control description" placeholder="Task">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control due-date" placeholder="Due Date">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Add Task</button>
+          </div>
 
 
-      </form>
+        </form>
+      </div>
     </div>
+
+   <div class="row">
+     <div class="col-md-6">
+       <div class="row completed-tasks">
+         <h3>DONE</h3>
+       </div>
+     </div>
+   </div>
+
   </div>
 
 </body>
