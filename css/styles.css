@@ -1,3 +1,12 @@
+body {
+  font-family: 'Passion One', cursive;
+}
+
+.btn-primary {
+  margin-top:5%;
+  width: 20rem;
+}
+
 .incomplete-tasks {
   display: none;
 }
@@ -12,4 +21,8 @@
 
 span {
   text-decoration: none;
+}
+
+.center {
+  margin-left;
 }
